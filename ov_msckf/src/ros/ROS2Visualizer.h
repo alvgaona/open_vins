@@ -57,8 +57,8 @@
 
 namespace ov_core {
 class YamlParser;
-struct CameraData;
 } // namespace ov_core
+#include "utils/sensor_data.h"
 
 namespace ov_msckf {
 
