@@ -82,8 +82,6 @@ def launch_setup(context):
         output='screen',
         parameters=[
             {"verbosity": LaunchConfiguration("verbosity")},
-            {"use_stereo": LaunchConfiguration("use_stereo")},
-            {"max_cameras": LaunchConfiguration("max_cameras")},
             {"save_total_state": LaunchConfiguration("save_total_state")},
             {"config_path": config_path},
         ],
